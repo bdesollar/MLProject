@@ -27,14 +27,16 @@ document and code all in one file to make it easier to read and write the code n
       4) `source venv/bin/activate`
 3) After that you will need to run `pip install notebook` in the terminal
 4) Following that, run `pip install -r requirements.txt` in the terminal
-5) Then run `jupyter notebook` to launch the jupiter notebook and be able to test out the learners
+5) The files of data to use for training and testing can be found [here](https://www.kaggle.com/competitions/used-car-price-regression-aiml-2022/data) for used car reg (regresssion) and [here](https://www.kaggle.com/competitions/used-cars-type-classification/data) for used car clas (classification)
+   1) Put them in teh directory you have Used_Car_Reg in as well as in Used_Car_Clas
+6) Then run `jupyter notebook` to launch the jupiter notebook and be able to test out the learners
 
 ## How to use
 
 ---
 
 To use this you will just need to run all cells in the Jupyter Notebook. Click on the project type you want to test and the run all cells in
-the *.ipynb file. The last cell will print the results to a csv file and uploaded to kaggle.
+the *.ipynb file. The last cell will print the results to a csv file and that were uploaded to kaggle for comparison.
 
 ## Credits
 
@@ -71,3 +73,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
